@@ -3,10 +3,6 @@
     "rewrites": [
         {
             "source": "/t/p/:path*",
-            "destination": "https://api.themoviedb.org/t/p/:path*"
-        },
-        {
-            "source": "/t/p/:path*",
             "destination": "https://image.tmdb.org/t/p/:path*"
         },
         {
